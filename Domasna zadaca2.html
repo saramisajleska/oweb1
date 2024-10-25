@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <link rel="stylesheet" href="domasna2.css">
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+        <title>ZADACA1</title>
+    </head>
+    <body>
+        <style>
+            body {
+text-align: center;
+}
+        </style>
+        <form>
+        <h1><strong>ORDER PIZZA!</strong></h1>
+        <p>
+            <strong>Select pizza size:</strong><br>
+            <input name="pizzasize" type="radio" value="Big" checked>
+            <label>Big</label><br>
+          <input name="pizzasize" type="radio" value="Medium">
+          <label>Medium</label><br>
+         <input name="pizzasize" type="radio" value="Small">
+        </label>Small</label><br>
+    </p>
+    <p>
+        <strong>Select the crust type:</strong><br>
+            <select name="crust">
+                <option selected>Deep dish</option>
+                <option>Thin crust</option>
+                <option>Crispy crust</option>
+            </select>
+        </strong><br>
+    </p>
+    <p>
+        <strong>Select the filler:</strong><br>
+        <input name="filler" type="checkbox" value="Sausages">
+        <label>Sausages</label><br>
+        <input name="filler"type="checkbox" value="Pepper">
+        <label>Pepper</label><br>
+        <input name="filler" type="checkbox" value="Mushrooms">
+        <label>Mushrooms</label><br>
+    </p>
+    <p>
+        <lable>Name:
+            <input name="name" type="text" size="25">
+        </lable><br>
+        <label>Phone:
+            <input name="phone" type="text" size="25">
+        </label><br>
+        <lable>Adress:
+            <input name="adress" type="text" size="25">
+        </lable>
+    </p>
+    <p>
+        <lable>
+            <textarea name="message" rows="4" cols="36">Message:</textarea>
+        </lable>
+    </p>
+    <p>
+        <input type="submit" value="Send">
+        <input type="reset" value="Reset">
+    </p>
+    </form>
+    </body>
+</html>

@@ -1,0 +1,53 @@
+body{
+    background-image: url(../../e99d48b31a190cb63bbda55d89a1b740.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+h1{
+    text-align: center;
+    color: rgba(67, 37, 8, 0.86);
+    font-family: "Press Start 2P","consolas","sans-serif";
+    font-size: xx-large;
+    margin-top: 20px;
+
+}
+form{
+    text-align: center;
+    width: 300px;            
+    margin: 0 auto;          
+    padding: 14px;
+    background: rgba(217, 161, 101, 0.618); 
+    border-radius: 20px;
+    box-shadow: 10 10 10px rgba(207, 117, 117, 0.5);
+}
+p{
+    color: rgba(82, 12, 12, 0.822);
+    font-family: "Press Start 2P","consolas","sans-serif";
+    font-style: oblique;
+    text-decoration: rgba(95, 9, 9, 0.634) dotted underline;
+    font-size: 12px;
+    text-shadow: 5px 5px 5px bisque;
+}
+input[type="submit"], input[type="reset"] 
+{
+    background: linear-gradient(to right , rgb(158, 57, 57), rgb(199, 123, 100)); 
+    color: white;
+    border-radius: 10px;
+    border-style: dotted;
+    padding: 10px 25px;
+    border-radius: 30px;
+}
+input[type="text"]{
+    border-style: dotted;
+    border-radius: 20px;
+    color: rgba(120, 18, 18, 0.801);
+}
+textarea{
+    border-style: dotted;
+    border-radius: 20px;
+    color: rgba(135, 39, 39, 0.523);
+    text-align: center;
+}
